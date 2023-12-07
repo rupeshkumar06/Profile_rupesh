@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Basic Info</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+    .element{
+        padding-top: 40px;
+    }
+    .top{
+        padding-top: 70px;
+    }
+    .modal .modal-header{
+        text-shadow: 20px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    body{
+        background-color: black;
+    }
+    .t{
+        text-align: center;
+        padding-top:30px;
+        background: radial-gradient(circle, rgba(151,255,22,1) 0%, rgba(244,2,2,1) 12%, rgba(13,0,235,1) 51%, rgba(106,17,1,1) 54%, rgba(255,0,0,1) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    
+
+    </style>
+</head>
+<body>
+    <h1 class="t">RUPESH KUMAR'S DETAILS</h1>
+    <div class="container top">
+    <div class="row element">
+    <button class="btn btn-primary col" data-bs-toggle="modal" data-bs-target="#modal1">Open My Basic Info</button>             
+    </div>
+    
+    <div class="row element">
+    <button class="btn btn-primary col" data-bs-toggle="modal" data-bs-target="#modal2">College Details</button>
+    </div>
+    
+    <div class="row element">
+    <button class="btn btn-primary col" data-bs-toggle="modal" data-bs-target="#modal3">School Details</button>
+    </div>
+    <div class="row element">
+    <button class="btn btn-primary col" data-bs-toggle="modal" data-bs-target="#modal4">Contact Details</button>
+    </div>
+    
+    <div class="modal" id="modal1">
+    
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    
+    <div class="modal-content">
+
+    <div class="modal-header">My Basic Info</div>
+    
+    <div class="modal-body">
+    <table class="table">
+    <tr>
+    <td>Name</td>
+    <td>Rupesh Kumar S</td>
+    </tr>
+    <tr>
+    <td>D.O.B</td>
+    <td>xx/xx/20xx</td>
+    </tr>
+    <tr>
+    <td>Nationality</td>
+    <td>Indian</td>
+    </tr>
+    <tr>
+    <td>State</td>
+    <td>TamilNadu</td>
+    </tr>
+    <tr>
+    <td>City</td>
+    <td>Salem</td>
+     </tr>
+    </table>    
+    </div>
+
+    <div class="modal-footer">
+    <button class="btn btn-danger" data-bs-dismiss="modal" data-bs-target="#modal1">Close</button>     
+    </div>
+    
+    </div>    
+    
+    </div>
+    </div>
+
+    <div class="modal" id="modal2">
+        <div class="modal-dialog modal-dialog-centered ">
+    
+            <div class="modal-content">
+        
+            <div class="modal-header">My College Details</div>
+            
+            <div class="modal-body">
+            <table class="table">
+            <tr>
+            <td>College</td>
+            <td>Sri Krishna College of Engineering and Technology</td>
+            </tr>
+            <tr>
+            <td>Course</td>
+            <td>B.tech</td>
+            </tr>
+            <tr>
+            <td>Department</td>
+            <td>Information Technology</td>
+            </tr>
+            <tr>
+            <td>Class</td>
+            <td>IT-C</td>
+            </tr>
+            <tr>
+            <td>Roll No</td>
+            <td>23IT182</td>
+            </tr>
+            <td>CGPA</td>
+            <td>9.0</td>
+            </table>    
+            </div>
+            
+            <div class="modal-footer">
+            <button class="btn btn-danger" data-bs-dismiss="modal" button-bs-target="#modal2">Close</button>     
+            </div>    
+            </div>
+            </div>
+    </div>
+
+    <div class="modal" id="modal3">
+        <div class="modal-dialog modal-dialog-centered ">
+    
+            <div class="modal-content">
+        
+            <div class="modal-header">My School Details</div>
+            
+            <div class="modal-body">
+            <table class="table">
+            <tr>
+            <td>School</td>
+            <td>Holy Cross Matriculation Higher Secondary School</td>
+            </tr>
+            <tr>
+            <td>10th Marks</td>
+            <td>450/500</td>
+            </tr>
+            <tr>
+            <td>12th Marks</td>
+            <td>580/600</td>
+            </tr>
+            <tr>
+            <td>EMIS number</td>
+            <td>xxxxxxxxxxxxxx</td>
+            </tr>
+            </table>    
+            </div>
+            
+            <div class="modal-footer">
+            <button class="btn btn-danger" data-bs-dismiss="modal" button-bs-target="#modal3">Close</button>     
+            </div>    
+            </div>
+            </div>
+    </div>
+    <div class="modal" id="modal4">
+        <div class="modal-dialog modal-dialog-centered ">
+    
+            <div class="modal-content">
+        
+            <div class="modal-header">My Contact Details</div>
+            
+            <div class="modal-body">
+            <table class="table">
+            <tr>
+            <td>Mobile</td>
+            <td><img src="https://cdn-icons-png.flaticon.com/512/8748/8748459.png" height="20px" width="20px">+91 80723 xxxxx</td>
+            </tr>
+            <tr>
+            <td>E Mail</td>
+            <td><img src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png" width="20px" height="18px"> 23it182@skcet.ac.in</td>
+            </tr>
+            <tr>
+            <td>LinkedIn</td>
+            <td><a target="_blank" href="https://www.linkedin.com/in/rupesh-kumar-s-7763382a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" 
+            width="20px" height="20px"></a> Rupesh Kumar</td>
+            </tr>
+            <tr>
+            <td>Instagram</td>
+            <td><a target="_blank" href="https://www.instagram.com/rk_x_06/"><img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg" height="21px" width="21px"></a> Rupesh</td>
+            </tr>
+            </table>    
+            </div>
+            
+            <div class="modal-footer">
+            <button class="btn btn-danger" data-bs-dismiss="modal" button-bs-target="#modal3">Close</button>     
+            </div>    
+            </div>
+            </div>
+    </div>
+
+
+</body>
+</html>
